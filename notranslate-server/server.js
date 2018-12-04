@@ -78,6 +78,7 @@ app.get('*', (req, res) => {
 // ─── MODELS ─────────────────────────────────────────────────────────────────────
 //
 const User = require('./models/userModel');
+const Translation = require('./models/translationModel');
 //
 // ─────────────────────────────────────────────────────────────────── MODELS ─────
 //
@@ -171,6 +172,48 @@ app.post('/login', function (req, res, next) {
 //
 // ─────────────────────────────────────────────────────── LOGIN AND REGISTER ─────
 //
+
+//
+// ─── CONNECT TO GOOGLE TRANSLATE API ────────────────────────────────────────────────
+//
+
+//
+// ────────────────────────────────────────── CONNECT TO GOOGLE TRANSLATE API ─────────
+//
+
+//
+// ─── RECEIVE TRANSLATION REQUEST ────────────────────────────────────────────────────
+//
+
+//
+// ────────────────────────────────────────── RECEIVE TRANSLATION REQUEST ──────────────
+//
+
+//
+// ─── SEND REQUEST AND RECEIVE RESPONSE FROM GOOGLE TRANSLATE ──────────────────────────
+//
+
+//
+// ─────────────────────────── SEND REQUEST AND RECEIVE RESPONSE FROM GOOGLE TRANSLATE ──
+//
+
+//
+// ─── SAVE TRANSLATION IN DB ────────────────────────────────────────────────────
+//
+
+//
+// ────────────────────────────────────────── SAVE TRANSLATION IN DB ──────────────
+//
+
+//
+// ─── RETURN TRANSLATION BACK TO USER ─────────────────────────────────────────────
+//
+
+//
+// ────────────────────────────────────────── RETURN TRANSLATION BACK TO USER ──────
+//
+
+
 
 //
 // ─── DATABASE ACTIONS ROUTES ───────────────────────────────────────────────────────
